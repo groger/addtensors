@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+	<category>DTI.DTIProcess</category>
+	<title>addtensors</title>
+	<description></description>\
+	\
+	<contributor>Gwendoline Roger</contributor>
+	<version>1.0.0</version>
+	<parameters advanced="false">
+		<file>
+			<name>fiberOutput</name>
+			<longflag>--fiber_output</longflag>
+			<flag>o</flag>
+			<label>Fiber Output</label>
+			<description>Output fiber file. </description>
+			<channel>output</channel>
+		</file>
+		<file>
+			<name>tensorVolume</name>
+			<longflag>--tensor_file</longflag>
+			<flag>T</flag>
+			<label>Tensor Volume</label>
+			<description>DTI file</description>
+			<channel>input</channel>
+		</file>
+		<file>
+			<name>fiberFile</name>
+			<longflag>--fiber_file</longflag>
+			<label>Fiber File</label>
+			<description>DTI fiber file</description>
+			<channel>input</channel>
+		</file>
+	</parameters>
+</executable>
