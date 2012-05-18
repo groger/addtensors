@@ -1,0 +1,2 @@
+/usr/bin/ar cr liblibrary.a  CMakeFiles/library.dir/hfieldtodeformation.cxx.o CMakeFiles/library.dir/deformationfieldoperations.cxx.o CMakeFiles/library.dir/deformationfieldio.cxx.o
+/usr/bin/ranlib liblibrary.a
